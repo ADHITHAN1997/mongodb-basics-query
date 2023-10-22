@@ -1,0 +1,2 @@
+#restaurants grades grater then 90 
+db.restaurants.find({grades : { $Match:{"score":{$gt : 90}}}});
